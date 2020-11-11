@@ -1,0 +1,19 @@
+{
+  "name": "solo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "router.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2"
+  }
+}
